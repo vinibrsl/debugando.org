@@ -1,0 +1,72 @@
+body {
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 70%;
+
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.8rem;
+    font-weight: lighter;
+
+    color: #ffffff;
+    background-color: #171c28;
+}
+
+header, main, footer {
+    margin-bottom: 3rem;
+}
+
+footer > p {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body { max-width: 100%; }
+    footer > p {
+        margin: 0;
+        margin-bottom: 2rem;
+    }    
+}
+
+@media screen and (min-width: 600px)  {
+    .mobile-break { display: none; }
+}
+
+.emoji {
+    margin-left: 3px;
+    margin-right: 1px;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.emoji.emoji-shake {
+    animation: shake 1s 6 0s linear; 
+}
+
+@keyframes shake {
+    0%   { transform: rotate(0deg); }
+    20%  { transform: rotate(10deg); }
+    40%  { transform: rotate(0deg); }
+    60%  { transform: rotate(-10deg); }
+    80%  { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.link-outline {
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px solid blue;
+    -webkit-transition:border-bottom .2s;
+    -moz-transition:border-bottom .2s;
+    -ms-transition:border-bottom .2s;
+     -o-transition:border-bottom .2s;
+        transition:border-bottom .2s;
+}
+
+.link-outline:hover {
+    border-bottom: 10px solid blue;
+}
+
+.my-name {
+    font-weight: bold;
+}
