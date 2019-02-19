@@ -1,3 +1,11 @@
+::selection {
+    background: #5EB1C4;
+}
+
+::-moz-selection {
+    background: #5EB1C4;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -13,8 +21,8 @@ body {
     font-size: 1.8rem;
     font-weight: lighter;
 
-    color: #ffffff;
-    background-color: #171c28;
+    color: #DCDFE5;
+    background-color: #0C0C0C;
 }
 
 header, main, footer {
@@ -61,17 +69,13 @@ footer > p {
 
 .link-outline {
     text-decoration: none;
-    color: white;
-    border-bottom: 5px solid blue;
-    -webkit-transition:border-bottom .2s;
-    -moz-transition:border-bottom .2s;
-    -ms-transition:border-bottom .2s;
-     -o-transition:border-bottom .2s;
-        transition:border-bottom .2s;
+    color: #5EB1C4;
+    border-bottom: 5px solid #5EB1C4;
 }
 
 .link-outline:hover {
-    border-bottom: 10px solid blue;
+    color: #DCDFE5;
+    background-color: #5EB1C4;
 }
 
 .my-name {
