@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Book Every Programmer Should Read – Vinicius Brasil – My thoughts on software development and its human side.</title>
+
+        <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+<meta name="description" content="Writing code that any programmer who read can understand is a must-have skill for software developers. The fact is: only 20% of the programmers have the ability.
+
+" />
+<meta property="og:description" content="Writing code that any programmer who read can understand is a must-have skill for software developers. The fact is: only 20% of the programmers have the ability.
+
+" />
+
+<meta name="author" content="Vinicius Brasil" />
+
+
+<meta property="og:title" content="The Book Every Programmer Should Read" />
+<meta property="twitter:title" content="The Book Every Programmer Should Read" />
+
+
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="alternate" type="application/rss+xml" title="Vinicius Brasil - My thoughts on software development and its human side." href="/feed.xml" />
+
+        <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    </head>
+
+    <body>
+        <div class="wrapper-masthead">
+            <div class="container">
+                <header class="masthead clearfix">
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="/">Vinicius Brasil</a></h1>
+                        <p class="site-description">My thoughts on software development and its human side.</p>
+                    </div>
+
+                    <nav>
+                        <a href="/">Blog</a>
+                        <a href="/about">About</a>
+                    </nav>
+                </header>
+            </div>
+        </div>
+
+        <div id="main" role="main" class="container">
+            <article class="post">
+    <h1>The Book Every Programmer Should Read</h1>
+
+    <div class="entry">
+        <p>Writing code that any programmer who read can understand is a must-have skill for software developers. The fact is: only 20% of the programmers have the ability.</p>
+
+<blockquote>
+  <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler</p>
+</blockquote>
+
+<p>When I started caring about code readability I noticed that my code started to be:</p>
+
+<ul>
+  <li>easier to maintain</li>
+  <li>easier to refactor</li>
+  <li>reusable</li>
+  <li>consistent</li>
+</ul>
+
+<h1 id="the-book">The book</h1>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/vgzbh2qt0bs7rbp1kfak.jpeg" alt="" /></p>
+
+<p>Robert “Uncle Bob” Martin’s “Clean Code: A Handbook of Agile Software Craftsmanship” is the clean coder programmer bible. This book talks about code, behaviour, automated tests and so on.</p>
+
+<h1 id="lets-get-practical-writing-meaningful-names">Let’s get practical! Writing meaningful names.</h1>
+<p>One of Clean Code chapters talks about meaningful naming. In this story, you are going to be the code reader. Take a look at this function:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">calc</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">n1</span> <span class="o">/</span> <span class="n">n2</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Do you think <code class="highlighter-rouge">calc</code> is a good name for this function? Uncle Bob would say: no! Why?</p>
+
+<ol>
+  <li><code class="highlighter-rouge">calc</code> is an abbreviation: don’t!</li>
+  <li>Functions do something. It must be named with a verb.</li>
+  <li>Even I rename <code class="highlighter-rouge">calc</code> to <code class="highlighter-rouge">calculate</code>, it still be vague. We need to improve the semantics by giving the function name more meaning.</li>
+</ol>
+
+<p>This function divides two numbers. <code class="highlighter-rouge">divide</code> is a good name for it.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">n1</span> <span class="o">/</span> <span class="n">n2</span>
+<span class="k">end</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We still have problems with it. “n1” and “n2”, the parameters, are not semantic. What if we call them “dividend” and “divisor”? The same thing to the “result” variable. It should be called something like “quotient”.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">dividend</span><span class="p">,</span> <span class="n">divisor</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">dividend</span> <span class="o">/</span> <span class="n">divisor</span>
+<span class="k">end</span>
+
+<span class="n">quotient</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Much more semantic!</p>
+
+<p>If you are not convinced to read this book yet, take a look in this picture and buy this must-read book!</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/ba8o8e3ozciunrsdlj88.png" alt="" /></p>
+
+
+    </div>
+
+    <div class="date">
+        Written on October 19, 2018
+    </div>
+
+    
+
+</article>
+
+        </div>
+
+        <div class="wrapper-footer">
+            <div class="container">
+                <footer class="footer">
+                    <p>Follow me on <a href="https://twitter.com/vnbrs_">Twitter</a></p>
+                    <p>This blog is open-source and hosted on <a href="">GitHub</a></p>
+                </footer>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>

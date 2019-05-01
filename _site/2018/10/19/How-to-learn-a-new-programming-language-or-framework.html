@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How To Learn a New Programming Language or Framework – Vinicius Brasil – My thoughts on software development and its human side.</title>
+
+        <meta charset="utf-8" />
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+<meta name="description" content="New programming languages are born every day. Dart, Go, Kotlin, Elixir and more! Beating the learning curve can be difficult, but there’s some tips that will help you to get through.
+
+" />
+<meta property="og:description" content="New programming languages are born every day. Dart, Go, Kotlin, Elixir and more! Beating the learning curve can be difficult, but there’s some tips that will help you to get through.
+
+" />
+
+<meta name="author" content="Vinicius Brasil" />
+
+
+<meta property="og:title" content="How To Learn a New Programming Language or Framework" />
+<meta property="twitter:title" content="How To Learn a New Programming Language or Framework" />
+
+
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="alternate" type="application/rss+xml" title="Vinicius Brasil - My thoughts on software development and its human side." href="/feed.xml" />
+
+        <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    </head>
+
+    <body>
+        <div class="wrapper-masthead">
+            <div class="container">
+                <header class="masthead clearfix">
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="/">Vinicius Brasil</a></h1>
+                        <p class="site-description">My thoughts on software development and its human side.</p>
+                    </div>
+
+                    <nav>
+                        <a href="/">Blog</a>
+                        <a href="/about">About</a>
+                    </nav>
+                </header>
+            </div>
+        </div>
+
+        <div id="main" role="main" class="container">
+            <article class="post">
+    <h1>How To Learn a New Programming Language or Framework</h1>
+
+    <div class="entry">
+        <p>New programming languages are born every day. Dart, Go, Kotlin, Elixir and more! Beating the learning curve can be difficult, but there’s some tips that will help you to get through.</p>
+
+<p>There are some steps you want to take to accelerate the learning process and increase your fluency in the programming language or framework you are learning.</p>
+
+<h1 id="master-the-language-then-learn-frameworks">Master the language. Then learn frameworks.</h1>
+<p>Some people tend to learn frameworks, like Ruby on Rails, without getting to know the language, in this case, Ruby. That’s a huge problem, specially when talking about Rails, that plays with Ruby as a DSL (domain-specific language).</p>
+
+<h1 id="solve-coding-challenges">Solve coding challenges.</h1>
+<p>There are a lot of websites like LeetCode, HackerRank and Project Euler that can help you to reach fluency. You’ll learn more about the syntax, libraries and logic. That’s a great way to prepare yourself to an interview too.</p>
+
+<h1 id="use-stackoverflow-and-code-review-as-much-as-you-want">Use StackOverflow and Code Review as much as you want.</h1>
+<p>When you start solving coding challenges, you’ll find problems. To solve them, you can use StackOverflow, a website that needs no introduction.</p>
+
+<p>The ace in the hole is on Code Review, a StackExchange community, the same network from StackOverflow. The whole point about Code Review is to get a review of your code from experts in the language you are learning. Take a look at the <a href="https://codereview.stackexchange.com/questions/tagged/beginner">beginners section</a> and join this awesome community!</p>
+
+<p>Recently I asked for a code review there, <a href="https://codereview.stackexchange.com/questions/180567/checking-for-balanced-brackets-in-python">click here if you want to see it</a>.</p>
+
+<h1 id="read-a-lot-of-code">Read a lot of code.</h1>
+<p>GitHub is essential to beat the learning curve. There you’ll find production code in the language you are learning. If you are confident to contribute, that’s even better.</p>
+
+<h1 id="install-a-linting-tool">Install a linting tool.</h1>
+<p>Linters are code-analyzer tools that flags bugs, idiomatic offenses, stylistic errors and more. A linting tool will flag the error for you to fix, and that’s when you learn. For Ruby, I use RuboCop as a linter.</p>
+
+<h1 id="code-idiomatically">Code idiomatically.</h1>
+<p>When I was learning Python, I transferred my C# knowledge to Python. That’s a great way to learn a new programming language, but it’s not enough to reach fluency, because you can’t learn the idiomatic way of programming in that language.</p>
+
+<p>To illustrate, take a look at this Python code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">matrix_of_floats</span><span class="p">(</span><span class="n">matrix_of_anything</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">matrix_of_anything</span><span class="p">)</span>
+    <span class="n">n_i</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">matrix_of_anything</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">new_matrix_of_floats</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+        <span class="n">row</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n_i</span><span class="p">):</span>
+            <span class="n">row</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">matrix_of_anything</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]))</span>
+        <span class="n">new_matrix_of_floats</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">new_matrix_of_floats</span>
+</code></pre></div></div>
+
+<p>versus the Pythonic way (idiomatic Python):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">matrix_of_floats</span><span class="p">(</span><span class="n">matrix_of_anything</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[[</span><span class="nb">float</span><span class="p">(</span><span class="n">a_ij</span><span class="p">)</span> <span class="k">for</span> <span class="n">a_ij</span> <span class="ow">in</span> <span class="n">a_i</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">a_i</span> <span class="ow">in</span> <span class="n">matrix_of_anything</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>To learn how to code idiomatically, you have to read a lot of code written by the pros.</p>
+
+<h1 id="build-something">Build something!</h1>
+<p>This one is the best. The main purpose of learning a programming language is to build something with it. When I was learning Ruby, I used Rails framework to build a blog, a todo app, a Wikipedia clone and a Rotten Tomatoes like website.</p>
+
+<p>Building something will evolve every aspect of your learning.</p>
+
+<h1 id="dont-give-up">Don’t give up.</h1>
+<p>Beating learning curves can be really hard. You need time and focus to get there. Don’t give up because you may be closer than you think. If you are stuck, ask for help. There’s a lot of resources out there.</p>
+
+<h1 id="jedi-tip-whiletrue--study">Jedi tip: <code class="highlighter-rouge">while(true) =&gt; study()</code></h1>
+<p>I know a programmer studies C# for more than 20 years. He still discovering new things about C# and .NET every day. This guy is <a href="https://pt.stackoverflow.com/users/101/maniero">Antonio Maniero, the most influent member of StackOverflow in Portuguese</a>.</p>
+
+<p>The fact is: we’ll never learn everything about a language, and that’s what will keep us learning more and more every day.</p>
+
+<p>You can be good at something, become a reference in it, but there will always be more to be learned.</p>
+
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/pmtw0yce1znjsksxkwmc.jpeg" alt="" /></p>
+
+<p>May the force be with you! Leave a comment sharing what else helps you to learn a new programming language.</p>
+
+    </div>
+
+    <div class="date">
+        Written on October 19, 2018
+    </div>
+
+    
+
+</article>
+
+        </div>
+
+        <div class="wrapper-footer">
+            <div class="container">
+                <footer class="footer">
+                    <p>Follow me on <a href="https://twitter.com/vnbrs_">Twitter</a></p>
+                    <p>This blog is open-source and hosted on <a href="">GitHub</a></p>
+                </footer>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>
