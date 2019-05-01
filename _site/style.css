@@ -65,6 +65,9 @@ body {
   padding: 0 10px;
   width: 100%; }
 
+article h1 {
+  margin-bottom: 0; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
@@ -131,7 +134,6 @@ img {
   max-width: none; }
 
 .date {
-  font-style: italic;
   color: #666; }
 
 ::-moz-selection {
