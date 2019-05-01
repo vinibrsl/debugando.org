@@ -2,35 +2,35 @@ name: Vinicius Brasil
 description: I like to understand how things work.
 
 social:
-  email: me@vnbrs.com
-  github: https://github.com/vnbrs
-  linkedin: https://linkedin.com/in/vinicius-brasil
-  twitter: https://twitter.com/vnbrs_
+    email: me@vnbrs.com
+    github: https://github.com/vnbrs
+    linkedin: https://linkedin.com/in/vinicius-brasil
+    twitter: https://twitter.com/vnbrs_
 
-google_analytics:
+    google_analytics:
 
-url: "https://vnbrs.com"
-repo: "https://github.com/vnbrs/vnbrs.com"
-baseurl: ""
+        url: "https://vnbrs.com"
+        repo: "https://github.com/vnbrs/vnbrs.com"
+        baseurl: ""
 
-permalink: /:title/
-version: v1.2.0
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
+        permalink: /:title/
+        version: v1.2.0
+        kramdown:
+            input: GFM
+            syntax_highlighter: rouge
+            syntax_highlighter_opts:
+                css_class: 'highlight'
 
-sass:
-  style: :extended
+                sass:
+                    style: :extended
 
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
+                    gems:
+                        - jekyll-sitemap
+                        - jekyll-feed
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+                    exclude:
+                        - Gemfile
+                        - Gemfile.lock
+                        - LICENSE
+                        - README.md
+                        - CNAME

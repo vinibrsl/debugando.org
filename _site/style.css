@@ -85,7 +85,8 @@ a {
   text-decoration: none;
   cursor: pointer; }
 a:hover, a:active {
-  color: #4183C4; }
+  background: #000;
+  color: #fff; }
 
 ul, ol {
   margin: 15px 0;
@@ -173,9 +174,7 @@ img {
   color: #333;
   cursor: pointer;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px; }
+  font-size: 28px; }
 
 .site-description {
   margin: -5px 0 0 0;
@@ -199,9 +198,7 @@ nav {
 nav a {
   margin-left: 20px;
   color: #333;
-  text-align: right;
-  font-weight: 300;
-  letter-spacing: 1px; }
+  text-align: right; }
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
@@ -237,6 +234,8 @@ nav a {
 footer {
   padding: 20px 0;
   text-align: center; }
+footer p {
+  margin: 0; }
 
 .highlight {
   background-color: #efefef;
