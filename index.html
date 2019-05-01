@@ -1,66 +1,18 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <meta name="url" content="http://vnbrs.com">
-  <meta name="description" content="Hi! I'm Vinicius Brasil, aka vnbrs, a business-minded software engineer.">
-  <meta name="keywords" content="vnbrs, vinicius brasil, programmer, software development, ruby">
-  <meta name="author" content="Vinicius Brasil (@vnbrs)">
-  <meta name="reply-to" content="me@vnbrs.com">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-  <title>Vinicius Brasil | vnbrs.com</title>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" async>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="images/favicon.ico">
-  
-  <script src="./js/index.js"></script>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86476797-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-86476797-2');
-  </script>
-</head>
-
-<body>
-    <header>
-        <p>
-            Hello! <img class="emoji emoji-shake" src="./images/emoji-waving.png" alt="Animated waving hand emoji" aria-hidden="true">
-        </p>            
-    </header>
-
-    <main>
-        <p>
-            I'm <span class="my-name">Vinicius Brasil</span>, a business-minded software engineer focused on building awesome products to solve users problems.
-        </p>
-    </main>
-
-    <footer>
-        <p>
-            Get in touch <img class="emoji" src="./images/emoji-pointing-right.png" alt="Index finger pointing right emoji" aria-hidden="true">
-            <br class="mobile-break"><a id="email-link" class="link-outline" title="Send an e-mail to Vinicius"></a>
-        </p>
-
-        <p>
-            Read my articles on Medium <img class="emoji" src="./images/emoji-book.png" alt="Stack of books emoji" aria-hidden="true">
-            <br class="mobile-break"><a class="link-outline" href="https://medium.com/@vnbrs" title="Go to Vinicius' Medium profile">medium.com/@vnbrs</a>            
-        </p>
-
-
-        <p>
-            Follow me on Twitter <img class="emoji" src="./images/emoji-bird.png" alt="Hatching twitter bird emoji" aria-hidden="true">
-            <br class="mobile-break"><a class="link-outline" href="https://twitter.com/vnbrs_" title="Go to Vinicius' Twitter profile">twitter.com/vnbrs_</a>
-        </p>
-    </footer>
-</body>
-
-</html>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
