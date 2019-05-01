@@ -1,5 +1,5 @@
 name: Vinicius Brasil
-description: My thoughts on software development and its human side.
+description: Thoughts on software develoment, business and tech.
 avatar: "https://i.imgur.com/t02mQYy.jpg"
 
 social:
@@ -14,22 +14,24 @@ baseurl: ""
 
 permalink: /:title/
 version: v1.2.0
+
 kramdown:
     input: GFM
     syntax_highlighter: rouge
     syntax_highlighter_opts:
         css_class: 'highlight'
 
-        sass:
-            style: :extended
+sass:
+    style: :expanded # You might prefer to minify using :compressed
 
-            gems:
-                - jekyll-sitemap
-                - jekyll-feed
+gems:
+    - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+    - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
-            exclude:
-                - Gemfile
-                - Gemfile.lock
-                - LICENSE
-                - README.md
-                - CNAME
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
+

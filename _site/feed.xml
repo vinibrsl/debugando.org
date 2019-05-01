@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://vnbrs.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vnbrs.com/" rel="alternate" type="text/html" /><updated>2019-05-01T17:45:39-03:00</updated><id>https://vnbrs.com/feed.xml</id><title type="html">Vinicius Brasil</title><subtitle>Thoughts on software develoment, business and tech.</subtitle><entry><title type="html">Keep It Stupid-Simple</title><link href="https://vnbrs.com/keep-it-stupid-simple/" rel="alternate" type="text/html" title="Keep It Stupid-Simple" /><published>2019-05-01T00:00:00-03:00</published><updated>2019-05-01T00:00:00-03:00</updated><id>https://vnbrs.com/keep-it-stupid-simple</id><content type="html" xml:base="https://vnbrs.com/keep-it-stupid-simple/">&lt;p&gt;We, humans, have a natural tendency to over complicate things. That’s because our brain cares too much about the future and its infinite possibilities.&lt;/p&gt;
+
+&lt;p&gt;When talking about software development, it’s really common to see developers and even software architects complicating systems and ending up with unmaintainable little monsters. Complexity is not something you look for. Find beauty in simplicity.&lt;/p&gt;
+
+&lt;p&gt;Complexity comes with time whenever you need new features or scale. Why would you build a super complex system with tons of classes, modules, design patterns and other jibber jabber if you don’t have any customers to use the product yet?&lt;/p&gt;
+
+&lt;p&gt;Don’t be tricked by possibilities. Let the problem come first, then the solution.&lt;/p&gt;</content><author><name></name></author><summary type="html">We, humans, have a natural tendency to over complicate things. That’s because our brain cares too much about the future and its infinite possibilities.</summary></entry><entry><title type="html">Do Not Be This Kind of Developer</title><link href="https://vnbrs.com/do-not-be-this-kind-of-developer/" rel="alternate" type="text/html" title="Do Not Be This Kind of Developer" /><published>2018-10-19T00:00:00-03:00</published><updated>2018-10-19T00:00:00-03:00</updated><id>https://vnbrs.com/do-not-be-this-kind-of-developer</id><content type="html" xml:base="https://vnbrs.com/do-not-be-this-kind-of-developer/">&lt;p&gt;We, humans, use language  since ancient times to express ourselves and to communicate with each other. The same thing happens with programming languages. It is a tool made so humans can communicate with machines. Just as spoken languages, there are a lot of programming languages with different dialects, applicabilities, and contexts. Some are even called dead languages because no nation officially speaks it.&lt;/p&gt;
+
+&lt;p&gt;Spoken languages are close to programming languages in its core: &lt;em&gt;communication&lt;/em&gt;. Both are great tools to communicate. And that’s how you want to see programming languages: as a tool.&lt;/p&gt;
+
+&lt;p&gt;With the ascension of Agile methodologies and evolving IT market, it is becoming common to handle programming languages as a tool to deliver business value. It doesn’t matter if it’s Ruby, Python, JavaScript or Go, it depends mainly on the applicability and the &lt;em&gt;business value&lt;/em&gt; you’re delivering.&lt;/p&gt;
+
+&lt;p&gt;Software developers, over the years, are even more involved with the business. They’re no more hired to write a bunch of code, but to understand the business problem and code based on it, otherwise it doesn’t matter because it doesn’t offer value preposition.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-hater&quot;&gt;The hater&lt;/h1&gt;
+&lt;p&gt;The biggest problem is: there are people that live complaining about programming languages.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python is slow, Java is clunky and I hate JavaScript.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a phrase that I hear or read almost every day. And that bothers me because some developers just don’t want to see programming languages as business tools, instead, they see as a weapon to harm other programmers.&lt;/p&gt;
+
+&lt;p&gt;Python has its applicabilities in web development, web scraping, data science and so on. Java works so well as an enterprise language. And JavaScript conquers the web.&lt;/p&gt;
+
+&lt;p&gt;Every programming language has its applicabilities, its pros and cons. If you think that language you love is the best, maybe you’re wrong. It can be the best for the project you’re working, but it might not be helpful for every kind of problem.&lt;/p&gt;
+
+&lt;p&gt;Being this kind of developer can harm a whole workplace, because of their negativity. Sorry, but it isn’t because someone hates JavaScript that the whole web is going to give up on it. So, instead of complaining, let’s deal with it and start studying.&lt;/p&gt;</content><author><name></name></author><summary type="html">We, humans, use language since ancient times to express ourselves and to communicate with each other. The same thing happens with programming languages. It is a tool made so humans can communicate with machines. Just as spoken languages, there are a lot of programming languages with different dialects, applicabilities, and contexts. Some are even called dead languages because no nation officially speaks it.</summary></entry><entry><title type="html">How To Learn a New Programming Language or Framework</title><link href="https://vnbrs.com/how-to-learn-new-programming-language-framework/" rel="alternate" type="text/html" title="How To Learn a New Programming Language or Framework" /><published>2018-10-19T00:00:00-03:00</published><updated>2018-10-19T00:00:00-03:00</updated><id>https://vnbrs.com/how-to-learn-new-programming-language-framework</id><content type="html" xml:base="https://vnbrs.com/how-to-learn-new-programming-language-framework/">&lt;p&gt;New programming languages are born every day. Dart, Go, Kotlin, Elixir and more! Beating the learning curve can be difficult, but there’s some tips that will help you to get through.&lt;/p&gt;
+
+&lt;p&gt;There are some steps you want to take to accelerate the learning process and increase your fluency in the programming language or framework you are learning.&lt;/p&gt;
+
+&lt;h1 id=&quot;master-the-language-then-learn-frameworks&quot;&gt;Master the language. Then learn frameworks.&lt;/h1&gt;
+&lt;p&gt;Some people tend to learn frameworks, like Ruby on Rails, without getting to know the language, in this case, Ruby. That’s a huge problem, specially when talking about Rails, that plays with Ruby as a DSL (domain-specific language).&lt;/p&gt;
+
+&lt;h1 id=&quot;solve-coding-challenges&quot;&gt;Solve coding challenges.&lt;/h1&gt;
+&lt;p&gt;There are a lot of websites like LeetCode, HackerRank and Project Euler that can help you to reach fluency. You’ll learn more about the syntax, libraries and logic. That’s a great way to prepare yourself to an interview too.&lt;/p&gt;
+
+&lt;h1 id=&quot;use-stackoverflow-and-code-review-as-much-as-you-want&quot;&gt;Use StackOverflow and Code Review as much as you want.&lt;/h1&gt;
+&lt;p&gt;When you start solving coding challenges, you’ll find problems. To solve them, you can use StackOverflow, a website that needs no introduction.&lt;/p&gt;
+
+&lt;p&gt;The ace in the hole is on Code Review, a StackExchange community, the same network from StackOverflow. The whole point about Code Review is to get a review of your code from experts in the language you are learning. Take a look at the &lt;a href=&quot;https://codereview.stackexchange.com/questions/tagged/beginner&quot;&gt;beginners section&lt;/a&gt; and join this awesome community!&lt;/p&gt;
+
+&lt;p&gt;Recently I asked for a code review there, &lt;a href=&quot;https://codereview.stackexchange.com/questions/180567/checking-for-balanced-brackets-in-python&quot;&gt;click here if you want to see it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;read-a-lot-of-code&quot;&gt;Read a lot of code.&lt;/h1&gt;
+&lt;p&gt;GitHub is essential to beat the learning curve. There you’ll find production code in the language you are learning. If you are confident to contribute, that’s even better.&lt;/p&gt;
+
+&lt;h1 id=&quot;install-a-linting-tool&quot;&gt;Install a linting tool.&lt;/h1&gt;
+&lt;p&gt;Linters are code-analyzer tools that flags bugs, idiomatic offenses, stylistic errors and more. A linting tool will flag the error for you to fix, and that’s when you learn. For Ruby, I use RuboCop as a linter.&lt;/p&gt;
+
+&lt;h1 id=&quot;code-idiomatically&quot;&gt;Code idiomatically.&lt;/h1&gt;
+&lt;p&gt;When I was learning Python, I transferred my C# knowledge to Python. That’s a great way to learn a new programming language, but it’s not enough to reach fluency, because you can’t learn the idiomatic way of programming in that language.&lt;/p&gt;
+
+&lt;p&gt;To illustrate, take a look at this Python code:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;matrix_of_floats&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;n_i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;new_matrix_of_floats&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;new_matrix_of_floats&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_matrix_of_floats&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;versus the Pythonic way (idiomatic Python):&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;matrix_of_floats&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_ij&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_ij&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix_of_anything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To learn how to code idiomatically, you have to read a lot of code written by the pros.&lt;/p&gt;
+
+&lt;h1 id=&quot;build-something&quot;&gt;Build something!&lt;/h1&gt;
+&lt;p&gt;This one is the best. The main purpose of learning a programming language is to build something with it. When I was learning Ruby, I used Rails framework to build a blog, a todo app, a Wikipedia clone and a Rotten Tomatoes like website.&lt;/p&gt;
+
+&lt;p&gt;Building something will evolve every aspect of your learning.&lt;/p&gt;
+
+&lt;h1 id=&quot;dont-give-up&quot;&gt;Don’t give up.&lt;/h1&gt;
+&lt;p&gt;Beating learning curves can be really hard. You need time and focus to get there. Don’t give up because you may be closer than you think. If you are stuck, ask for help. There’s a lot of resources out there.&lt;/p&gt;
+
+&lt;h1 id=&quot;jedi-tip-whiletrue--study&quot;&gt;Jedi tip: &lt;code class=&quot;highlighter-rouge&quot;&gt;while(true) =&amp;gt; study()&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;I know a programmer studies C# for more than 20 years. He still discovering new things about C# and .NET every day. This guy is &lt;a href=&quot;https://pt.stackoverflow.com/users/101/maniero&quot;&gt;Antonio Maniero, the most influent member of StackOverflow in Portuguese&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The fact is: we’ll never learn everything about a language, and that’s what will keep us learning more and more every day.&lt;/p&gt;
+
+&lt;p&gt;You can be good at something, become a reference in it, but there will always be more to be learned.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/pmtw0yce1znjsksxkwmc.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;May the force be with you! Leave a comment sharing what else helps you to learn a new programming language.&lt;/p&gt;</content><author><name></name></author><summary type="html">New programming languages are born every day. Dart, Go, Kotlin, Elixir and more! Beating the learning curve can be difficult, but there’s some tips that will help you to get through.</summary></entry><entry><title type="html">The Book Every Programmer Should Read</title><link href="https://vnbrs.com/the-book-every-programmer-should-read/" rel="alternate" type="text/html" title="The Book Every Programmer Should Read" /><published>2018-10-19T00:00:00-03:00</published><updated>2018-10-19T00:00:00-03:00</updated><id>https://vnbrs.com/the-book-every-programmer-should-read</id><content type="html" xml:base="https://vnbrs.com/the-book-every-programmer-should-read/">&lt;p&gt;Writing code that any programmer who read can understand is a must-have skill for software developers. The fact is: only 20% of the programmers have the ability.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When I started caring about code readability I noticed that my code started to be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;easier to maintain&lt;/li&gt;
+  &lt;li&gt;easier to refactor&lt;/li&gt;
+  &lt;li&gt;reusable&lt;/li&gt;
+  &lt;li&gt;consistent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-book&quot;&gt;The book&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/vgzbh2qt0bs7rbp1kfak.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Robert “Uncle Bob” Martin’s “Clean Code: A Handbook of Agile Software Craftsmanship” is the clean coder programmer bible. This book talks about code, behaviour, automated tests and so on.&lt;/p&gt;
+
+&lt;h1 id=&quot;lets-get-practical-writing-meaningful-names&quot;&gt;Let’s get practical! Writing meaningful names.&lt;/h1&gt;
+&lt;p&gt;One of Clean Code chapters talks about meaningful naming. In this story, you are going to be the code reader. Take a look at this function:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Do you think &lt;code class=&quot;highlighter-rouge&quot;&gt;calc&lt;/code&gt; is a good name for this function? Uncle Bob would say: no! Why?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;calc&lt;/code&gt; is an abbreviation: don’t!&lt;/li&gt;
+  &lt;li&gt;Functions do something. It must be named with a verb.&lt;/li&gt;
+  &lt;li&gt;Even I rename &lt;code class=&quot;highlighter-rouge&quot;&gt;calc&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;calculate&lt;/code&gt;, it still be vague. We need to improve the semantics by giving the function name more meaning.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This function divides two numbers. &lt;code class=&quot;highlighter-rouge&quot;&gt;divide&lt;/code&gt; is a good name for it.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We still have problems with it. “n1” and “n2”, the parameters, are not semantic. What if we call them “dividend” and “divisor”? The same thing to the “result” variable. It should be called something like “quotient”.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dividend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;divisor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dividend&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;divisor&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;divide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Much more semantic!&lt;/p&gt;
+
+&lt;p&gt;If you are not convinced to read this book yet, take a look in this picture and buy this must-read book!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thepracticaldev.s3.amazonaws.com/i/ba8o8e3ozciunrsdlj88.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Writing code that any programmer who read can understand is a must-have skill for software developers. The fact is: only 20% of the programmers have the ability.</summary></entry></feed>
