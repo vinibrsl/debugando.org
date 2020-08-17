@@ -125,6 +125,9 @@
 
 // Photo in About page
 .me {
+  margin: 0;
+  padding-right: 1rem;
+  float: left;
   width: 6.5rem;
   border-radius: 100%;
   position: relative;
@@ -132,7 +135,6 @@
 @media (max-width: 50em) {
   .me {
     width: 6.5rem;
-    margin-top: -4.8rem;
   }
 }
 

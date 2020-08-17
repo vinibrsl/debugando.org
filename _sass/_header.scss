@@ -3,18 +3,17 @@
 
 header {
     overflow: hidden;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .logo {
     font-size: 3.5rem;
     font-weight: $base-font-weight-bold;
-    color: var(--link-color);
 
-    .logosvg {
-    	  height: 2.7rem;
-        -webkit-filter: var(--invert-logo-color);
+    a {
+      color: var(--title-color);
     }
+
 }
 
 .menu {
