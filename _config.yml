@@ -28,7 +28,7 @@ plugins:
 permalink: posts/:slug
 excerpt_separator: <!–-break-–>
 paginate: 5
-paginate_path: '/blog/page-:num/'
+paginate_path: '/page-:num/'
 collections:
   my_tags:
     output: true
