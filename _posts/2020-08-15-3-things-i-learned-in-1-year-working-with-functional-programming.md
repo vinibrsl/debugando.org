@@ -5,7 +5,7 @@ tags:
   - functional-programming
   - elixir
   - software-engineering
-hero: "https://i.imgur.com/ddkHpzj.jpg"
+hero: "https://dev-to-uploads.s3.amazonaws.com/i/njde17a3g8os7ma4nyyv.jpg"
 overlay: red
 published: true
 ---
