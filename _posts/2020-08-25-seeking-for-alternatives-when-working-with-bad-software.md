@@ -9,7 +9,7 @@ overlay: red
 published: true
 ---
 
-Inevitably, we'll someday come across legacy software, inconsistent databases, or integration modules that simply don't work. It might sound wise to fix this software, especially if they're crucial to the business. The problem that refactoring costs development and validation time, and the business does not always have this time to invest, but at the same time needs the fix. How can we both deliver the business requirements in time and still not break anything?
+Inevitably, we'll someday come across legacy software, inconsistent databases, or integration modules that simply don't work. It might sound wise to fix this software, especially if they're crucial to the business. The problem that refactoring costs development and validation time, and the business does not always have this time to invest, but at the same time needs the fix. How can we both deliver the business requirements in time and still not break everything?
 
 <!–-break-–>
 
