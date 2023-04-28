@@ -1,4 +1,4 @@
-baseURL = "https://debugando.org"
+baseURL = "https://debugando.org/"
 theme = 'hugo-bearblog'
 title = "Debugando"
 author = "Vinicius Brasil"
