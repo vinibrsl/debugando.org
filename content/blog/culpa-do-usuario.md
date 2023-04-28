@@ -38,7 +38,7 @@ autoexplicativas para nossos produtos.
 - Reconhecimento em vez de lembrança
 - Flexibilidade e eficiência de uso
 - Design estético e minimalista
-- Reconhecer, diagnosticar e recuperar Erros
+- Reconhecer, diagnosticar e recuperar erros
 - Ajuda e documentação
 
 Da próxima vez, culpe o design, não o usuário - mesmo que esse design seja seu.
