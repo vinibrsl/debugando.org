@@ -1,3 +1,21 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://debugando.org"
+theme = 'hugo-bearblog'
+title = "Debugando"
+author = "Vinicius Brasil"
+copyright = "Copyright © 2023, debugando.org."
+languageCode = "pt-BR"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Programação além dos bits"
+  favicon = "images/favicon.png"
+  images = ["images/share.png"]
+  title = "debugando.org"
+  hideMadeWithLine = true
