@@ -3,6 +3,7 @@ slug = "medo-de-merge"
 title = "Medo de merge"
 date = "2023-04-28"
 description = "Um foguete falhou após seu lançamento por conta de uma conversão de float para inteiro. Um erro de programação. E você, já quebrou produção? Existe uma forma de lidar com isso de forma saudável, sem medo de merges."
+images = ["/images/ariane-5.jpg"]
 +++
 
 Você acaba de terminar uma feature que estava trabalhando há semanas. Você abre um pull request, escreve uma detalhada descrição e está pronto para o code review. Após uma boa sessão de reviews, hora de *mergear* - ou _mesclar_ se você for um erudito. 10 minutos após o merge um colega que estava de plantão recebe uma ligação do PagerDuty dizendo que os *status checks* já não mais funcionam. **Você quebrou produção.**
