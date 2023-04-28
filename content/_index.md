@@ -1,20 +1,11 @@
-A engenharia de programação é fascinante - quem poderia prever que 0.1 + 0.2
-não seria igual a 0.3? Mas para aqueles que têm prazer em entender o que
-acontece por trás dos bits, isso é o que torna a programação tão interessante.
-Se você está lendo isso, é provável que seja uma dessas pessoas.
+## Bem-vindo! 👋
 
-Os conteúdos publicados aqui têm como objetivo provocar reflexão. Não há
-tutoriais de programação ou linguagens específicas, mas artigos curtos e longos
-sobre engenharia de software, a intersecção entre software e produto, carreira
-de programação e outros tópicos que independem da linguagem de programação que
-você utiliza (ou talvez você nem programe!).
+A engenharia dos programadores é curiosa - imagine uma lógica em que `0.1 + 0.2` nem sempre é `0.3`. Se duvida disso, tente o mesmo cálculo em qualquer console interativo de JavaScript. O mais curioso, na verdade, é que existem aqueles que têm prazer em entender o que acontece por trás do bits, e se você está lendo isso, provavelmente é um deles.
 
-O [debugando.org](https://debugando.org) é a iteração do meu blog pessoal,
-focado em escrever para os programadores brasileiros. Enquanto há bastante
-conteúdo de engenharia de software em inglês, temos uma comunidade expressiva
-verde e amarela de programadores muito competentes.
+Os conteúdos publicados aqui têm como objetivo te provocar a pensar. Não espere por tutoriais de programação, mas sim artigos curtos e longos sobre engenharia de software, a intersecção entre software e produto, carreira de programação e outros tópicos que independem da sua linguagem de programação preferida.
 
-Espero que você encontre aqui uma fonte de inspiração e conhecimento para
-aprimorar suas habilidades como programador.
+O [debugando.org](https://debugando.org) é a iteração do meu blog pessoal, focado em escrever para os programadores brasileiros. Enquanto há bastante conteúdo de engenharia de software em inglês, temos uma comunidade expressiva verde e amarela de programadores muito competentes.
+
+Meu único desejo é que você saia daqui com vontade de escrever software - bom software.
 
 \-Vinicius Brasil

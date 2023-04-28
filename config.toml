@@ -1,6 +1,6 @@
 baseURL = "https://debugando.org/"
 theme = 'hugo-bearblog'
-title = "Debugando"
+title = "debugando.org"
 author = "Vinicius Brasil"
 copyright = "Copyright © 2023, debugando.org."
 languageCode = "pt-BR"
