@@ -19,3 +19,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   images = ["images/share.png"]
   title = "debugando.org"
   hideMadeWithLine = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
