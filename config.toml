@@ -15,7 +15,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   description = "Programação além dos bits"
-  favicon = "images/favicon.png"
+  favicon = "favicon.ico"
   images = ["images/share.png"]
   title = "debugando.org"
   hideMadeWithLine = true
