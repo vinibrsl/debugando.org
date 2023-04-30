@@ -1,8 +1,8 @@
 baseURL = "https://debugando.org/"
 theme = 'hugo-bearblog'
-title = "debugando.org"
+title = "Debugando.org"
 author = "Vinicius Brasil"
-copyright = "Copyright © 2023, debugando.org."
+copyright = "Copyright © 2023, Debugando.org."
 languageCode = "pt-BR"
 enableRobotsTXT = true
 
@@ -14,10 +14,10 @@ ignoreErrors = ["error-disable-taxonomy"]
   tags = "/blog/:slug"
 
 [params]
-  description = "Programação além dos bits"
+  description = "Publicação independente sobre engenharia de software que acredita que bom software vai além dos bits."
   favicon = "favicon.ico"
   images = ["images/share.png"]
-  title = "debugando.org"
+  title = "Debugando.org"
   hideMadeWithLine = true
 
 [markup]
