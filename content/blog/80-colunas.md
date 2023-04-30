@@ -30,7 +30,7 @@ O limite de 80 colunas pode parecer demais para alguns, mas devemos concordar qu
 
 ## Bônus: Vim e o limite de 80 caracteres
 
-![](/images/vim-colorcolumn.png)
+![](/images/vim-colorcolumn.jpg)
 
 Eu acho útil ter uma indicação clara de onde está o limite no meu editor. Com essa simples configuração no Vim, você pode ter uma régua visual para as colunas que deseja. O Vim também pode automaticamente quebrar o texto na coluna 80. Com um bloco visual selecionado, basta digitar `gq`.
 
